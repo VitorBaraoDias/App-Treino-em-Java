@@ -16,6 +16,7 @@ public class DbHelperUser extends SQLiteOpenHelper {
             + " email text not null,"
             + " pass text not null)";
 
+
     public static final String tableCarc= "create table dadosUser"
             + "(id_dados integer primary key autoincrement,"
             + " id_user integer not null,"
@@ -26,6 +27,7 @@ public class DbHelperUser extends SQLiteOpenHelper {
             + " genero text not null,"
             + " FOREIGN KEY (id_user)"
             + "REFERENCES user(id_user))";
+
     public static final String tabletTrainer= "create table personalTrainer"
             + "(id_trainer integer primary key autoincrement,"
             + " id_user integer not null,"

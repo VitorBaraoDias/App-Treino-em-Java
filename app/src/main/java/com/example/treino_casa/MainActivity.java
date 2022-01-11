@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         UserDao userDao= new UserDao(this);  //credenciais user
         DadosDao dadosDao = new DadosDao(this); //dados user
         PersonalTrainerDao personalTrainerDao = new PersonalTrainerDao(this);
+
         btnSessao.setOnClickListener(new View.OnClickListener() {
              @Override
          public void onClick(View view) {

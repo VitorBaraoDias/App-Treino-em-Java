@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".FormEscolhaGenero">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:includeFontPadding="true"
+        android:text="Qual o seu sexo?"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.255" />
+
+
+    <ImageView
+        android:id="@+id/imgHomem"
+        android:layout_width="136dp"
+        android:layout_height="486dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="72dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/mencartoon1" />
+
+    <RadioButton
+        android:id="@+id/radioHomem"
+        android:layout_width="41dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="152dp"
+        android:buttonTint="#03B0FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imgHomem"
+        app:layout_constraintStart_toStartOf="@+id/imgHomem"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imgMulher"
+        android:layout_width="145dp"
+        android:layout_height="606dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgHomem"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/women3cartoon" />
+
+    <RadioButton
+        android:id="@+id/radioMulher"
+        android:layout_width="45dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="152dp"
+        android:backgroundTint="#AA04B6"
+        android:buttonTint="#CF13EF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imgMulher"
+        app:layout_constraintStart_toStartOf="@+id/imgMulher"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnjanela"
+        android:layout_width="291dp"
+        android:layout_height="45dp"
+        android:background="@drawable/degradebutton"
+
+        android:fontFamily="@font/comfortaa"
+        android:text="Avançar"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:visibility="visible"
+        app:circularflow_radiusInDP="32dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.845"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="541dp"
+        android:layout_height="117dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/imgazul_degrade" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

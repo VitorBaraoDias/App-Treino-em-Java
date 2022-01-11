@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEBEB"
+    tools:context=".FormTrainer">
+
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="412dp"
+        android:layout_height="368dp"
+
+        android:layout_marginTop="304dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:srcCompat="@drawable/purplewave" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="541dp"
+        android:layout_height="117dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.784"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/imgazul_degrade" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="355dp"
+        android:layout_height="576dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgVoltar"
+        app:srcCompat="@drawable/bannerwhite" />
+
+    <EditText
+        android:id="@+id/txtNomeTrainer"
+        android:layout_width="224dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/degradebutton"
+        android:ems="10"
+        android:hint="Insira um nome"
+        android:inputType="textPersonName"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:shadowColor="#E8CDCD"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/textInicio2" />
+
+    <EditText
+        android:id="@+id/txtLocalidade"
+        android:layout_width="224dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/degradebutton"
+        android:ems="10"
+        android:hint="Localidade"
+        android:inputType="textPersonName"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:shadowColor="#E8CDCD"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/textInicio2" />
+
+    <Button
+        android:id="@+id/btnInserirTrainer"
+        android:layout_width="162dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/degradebutton"
+        android:fontFamily="@font/comfortaa"
+        android:text="Vamos!"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView15"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/imageView15" />
+
+    <CheckBox
+        android:id="@+id/checkCertificado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="Possui certificado?"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.362"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/txtLocalidade" />
+
+    <TextView
+        android:id="@+id/textInicio2"
+        android:layout_width="318dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Preencha o formulário"
+        android:textAlignment="center"
+        android:textColor="#00d2ff"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="@+id/imageView15" />
+
+    <ImageView
+        android:id="@+id/imgVoltar"
+        android:layout_width="46dp"
+        android:layout_height="44dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.219"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>

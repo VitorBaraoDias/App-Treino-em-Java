@@ -90,7 +90,6 @@ public class FormListaPersonalTrainer extends AppCompatActivity {
               listaTreinadores.clear();
               if(txtPesquisar.equals(""))
               {
-
                   setListaTreinadores(personalTrainerDao);
                   setAdapter(listaTreinadores);
               }
@@ -136,7 +135,6 @@ public class FormListaPersonalTrainer extends AppCompatActivity {
                 setAdapter(listaTreinadores);
             }
             else{
-
                 String nome = txtPesquisar.getText().toString();
                 listTreinador=personalTrainerDao.pesquisarTreinador(nome);
                 for(int i=0;i<listTreinador.size();i++){
@@ -144,7 +142,6 @@ public class FormListaPersonalTrainer extends AppCompatActivity {
                     listaTreinadores.add(dadosTreinador);
                 }
                 setAdapter(listaTreinadores);
-                Toast.makeText(getApplicationContext(),"Hello Javatpoint",Toast.LENGTH_SHORT).show();
             }
 
         }

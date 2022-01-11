@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/homeId"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+    <item android:id="@+id/recylerTrainerId"
+        android:title="Pesquisar"
+        android:icon="@drawable/ic_baseline_search_24"
+        />
+    <item android:id="@+id/equipaId"
+        android:icon="@drawable/ic_baseline_sports_24"
+        android:title="Junta-te a nós"/>
+    <item android:id="@+id/loginId"
+        android:icon="@drawable/ic_acount"
+        android:title="Conta"
+        />
+
+</menu>

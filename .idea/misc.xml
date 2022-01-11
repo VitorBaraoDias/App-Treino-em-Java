@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/drawable-anydpi/ic_down.xml" value="0.2890625" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2890625" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/drawable/custom_box.xml" value="0.2890625" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/drawable/custom_button.xml" value="0.2890625" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/drawable/degradebutton.xml" value="0.2890625" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/drawable/ic_acount.xml" value="0.2890625" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.2890625" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2890625" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/drawable/ic_baseline_reply_24.xml" value="0.2890625" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2890625" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.2890625" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/drawable/ic_baseline_sports_24.xml" value="0.2890625" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/drawable/ic_email.xml" value="0.2890625" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2890625" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/drawable/ic_lock.xml" value="0.2890625" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/drawable/ic_sharp_handyman_24.xml" value="0.2890625" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/drawable/image.xml" value="0.2890625" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/layout/activity_caracteristicas.xml" value="0.25" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/layout/activity_form_escolha_genero.xml" value="0.33" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/layout/activity_form_lista_personal_trainer.xml" value="0.25" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/layout/activity_form_trainer.xml" value="0.2617753623188406" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/layout/activity_menu.xml" value="0.25" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/layout/activity_profile.xml" value="0.33" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/layout/estrutura_recycler.xml" value="0.25815217391304346" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/layout/fragment_personal_trainer.xml" value="0.264945652173913" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/menu/nav_item.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/moeda/Desktop/Esco/TrabalhosAndroid/Treino_casa/app/src/main/res/menu/navbar_item.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/moeda/Desktop/TrabalhosAndroid/Treino_casa/app/src/main/res/layout/activity_menu.xml" value="0.264" />
+        <entry key="..\:/Users/vitor/AndroidStudioProjects/Treino_casa/app/src/main/res/drawable-anydpi/ic_down.xml" value="0.2203125" />
+        <entry key="..\:/Users/vitor/AndroidStudioProjects/Treino_casa/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
+        <entry key="..\:/Users/vitor/AndroidStudioProjects/Treino_casa/app/src/main/res/drawable/custom_box.xml" value="0.2203125" />
+        <entry key="..\:/Users/vitor/AndroidStudioProjects/Treino_casa/app/src/main/res/drawable/custom_button.xml" value="0.2203125" />
+        <entry key="..\:/Users/vitor/AndroidStudioProjects/Treino_casa/app/src/main/res/drawable/custom_spinner.xml" value="0.2203125" />
+        <entry key="..\:/Users/vitor/AndroidStudioProjects/Treino_casa/app/src/main/res/drawable/ic_acount.xml" value="0.2203125" />
+        <entry key="..\:/Users/vitor/AndroidStudioProjects/Treino_casa/app/src/main/res/drawable/ic_email.xml" value="0.2203125" />
+        <entry key="..\:/Users/vitor/AndroidStudioProjects/Treino_casa/app/src/main/res/drawable/ic_emailFocus.xml" value="0.2203125" />
+        <entry key="..\:/Users/vitor/AndroidStudioProjects/Treino_casa/app/src/main/res/drawable/ic_emailFocused.xml" value="0.2203125" />
+        <entry key="..\:/Users/vitor/AndroidStudioProjects/Treino_casa/app/src/main/res/drawable/ic_lock.xml" value="0.2203125" />
+        <entry key="..\:/Users/vitor/AndroidStudioProjects/Treino_casa/app/src/main/res/drawable/image.xml" value="0.2203125" />
+        <entry key="..\:/Users/vitor/AndroidStudioProjects/Treino_casa/app/src/main/res/font/lato_light.xml" value="0.234375" />
+        <entry key="..\:/Users/vitor/AndroidStudioProjects/Treino_casa/app/src/main/res/layout/activity_caracteristicas.xml" value="0.25" />
+        <entry key="..\:/Users/vitor/AndroidStudioProjects/Treino_casa/app/src/main/res/layout/activity_form_caracteristicas.xml" value="0.22" />
+        <entry key="..\:/Users/vitor/AndroidStudioProjects/Treino_casa/app/src/main/res/layout/activity_form_escolha_genero.xml" value="0.25" />
+        <entry key="..\:/Users/vitor/AndroidStudioProjects/Treino_casa/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/vitor/AndroidStudioProjects/Treino_casa/app/src/main/res/layout/activity_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
